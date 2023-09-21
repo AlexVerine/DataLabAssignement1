@@ -15,8 +15,8 @@ if __name__ == '__main__':
 
 
     # Open Ratings table
-    print('Ratings loading...')
-    table = np.load(args.name)
+    print('Ratings loading...') 
+    table = np.load(args.name) ## DO NOT CHANGE THIS LINE
     print('Ratings Loaded.')
     
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     
 
     # Save the completed table 
-    np.save("output.npy", table)
+    np.save("output.npy", table) ## DO NOT CHANGE THIS LINE
 
 
         
