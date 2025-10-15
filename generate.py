@@ -7,7 +7,7 @@ import argparse
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate a completed ratings table.')
-    parser.add_argument("--name", type=str, default="ratings_eval.npy",
+    parser.add_argument("--name", type=str, default="ratings_train.npy",
                       help="Name of the npy of the ratings table to complete")
 
     args = parser.parse_args()
